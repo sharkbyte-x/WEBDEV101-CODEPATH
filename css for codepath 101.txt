@@ -1,0 +1,314 @@
+
+body{
+    background-color: rgb(111, 29, 27);
+    /*background-color: rgb(111, 29, 27);*/
+
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    font-size: 18px;
+    padding: 0px;
+    border: goldenrod 10px solid;
+  }
+
+.navbar ul{
+    z-index: 1000; /* Ensures the navbar is on top of other elements */
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: goldenrod;
+  }
+
+  #theme-button{
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+.navbar ul li {
+    float: left;
+    margin: 5px 30px 5px 30px;
+  }
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+  }
+
+.navbar ul li a:hover {
+    color: white;
+  }
+
+.header-container{
+  padding: 25px 0px;
+  font-size: 45px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: goldenrod;
+}
+
+.header-container-2{
+  padding-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#header-img{
+  height:200px;
+}
+
+.header-item:nth-of-type(1){
+
+  }
+
+.header-item:nth-of-type(2){
+
+  }
+
+#header-button {
+    font-size: 25px;
+    width: 75%;
+    margin-bottom: 15px;
+    background-color: white;/* button color */
+    color: black;               /* text color */
+    border: none;               /* hides the default border */
+    padding: 5px 12px;          /* space between button's text and edge */
+    border-radius: 10px;         /* curved edges instead of square */
+    cursor: pointer;            /* makes the cursor change when over button */
+}
+
+#header-button:hover {
+  background-color: rgb(111, 29, 27);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.schedule-section-container{
+  display: flex;
+  align-items: center;
+}
+
+.schedule-container{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+h1{
+    background-color: goldenrod;
+    font-family: monospace;
+    font-size: 40px;
+    color: black;
+}
+
+h2, h3, h4{
+    font-family: monospace;
+    background-color: goldenrod;
+    color: black;
+}
+
+            
+p{
+    font-family: monospace;
+}
+
+ul{
+    font-family: monospace;
+}
+
+.Links {
+    background-color: rgb(241, 216, 103);
+    text-align: center;
+}
+
+a:link {
+color: black;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: white;
+}
+
+.footer { 
+  font-family: monospace;
+  position: fixed left;
+  bottom: 0;
+  left:0;
+  width: 20%;
+}
+
+a.footer{
+  color: white;
+  text-decoration: none;
+}
+
+a.footer:hover{
+  color: goldenrod;
+}
+
+/*** RSVP Section ***
+  
+  Purpose:
+  - Add style rules for your website's RSVP form
+
+  When To Modify:
+  - [ ] Project 6 (REQUIRED FEATURE)
+  - [ ] Project 7 (REQUIRED FEATURE)
+  - [ ] Any time after
+***/
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background-color: #f8bbd0;
+
+  /* Set border-color and background */
+}
+
+.rsvp-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.rsvp-para{
+  width: 55%;
+  padding-right: 10px;
+}
+
+.rsvp-participants{
+  width: 45%;
+  padding-right: 10px;
+}
+
+#rsvp-button{
+  background-color: black;
+  color: wheat;
+  border:none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Add other rsvp-related selectors here */
+/*** Animations [PLACEHOLDER] [ADDED IN UNIT 8] ***/
+/*** Success Modal  ***
+  
+  Purpose:
+  - Add style rules to your website's pop-up modal, which appears
+    when a user successfully submits the RSVP form
+
+  When To Modify:
+  - [ ] Project 9 (REQUIRED FEATURE)
+  - [ ] Any time after
+***/
+
+.modal {
+  display: flex;   /* modal should be hidden by default*/
+  position: fixed; /* modal cannot move around the screen */
+  z-index: 2;      /* modal appears above other elements */ 
+  
+  /* TODO: Make the modal fill the entire screen */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Add a semi-transparent background to shadow non-modal elements*/
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black */
+
+  /* Flexbox settings for modal */
+  /* These won't apply until we update "display:" from "hidden" to "flex" in our JS */
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+    /* Change modal size and spacing here */
+    padding: 50px;
+    width: 55%;
+
+    /* Customize modal style here */
+    background-color: paleturquoise;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+
+    /* Optional: Use flexbox to customize .modal-item layout */
+    display: flex;
+}
+
+.modal-item {
+    /* Optional: Style individual elements within the modal */
+}
+
+#exit-modal{
+  display: flex;
+  top:0px;
+  right: 40px;
+  position: relative;
+}
+
+/* Default dark mode style */
+.dark-mode{
+    background-color: black;
+}
+
+/* Example: Different dark mode style for h1 */
+.dark-mode.schedule-container {
+    background-color: black;
+    color: white;
+}
+
+:root {
+    /* Light Mode */
+    --bg-color: #5b6af7;
+    --text-color: #231942;
+
+    /* Dark Mode */
+    --bg-color-dark-mode: #3e3377;
+    --text-color-dark-mode: #fff;
+
+    /* Accent Colors */
+    --accent-color-light: #d2cff5;
+    --accent-color-medium: #684fb5;
+    --accent-color-dark: #482f95;
+    --accent-color-darkest: #231942;
+    --accent-color-green: #28eb76;
+
+    /* Error Colors */
+    --error-color: #f8bbd0;
+    --error-color-border: #e63946;
+}

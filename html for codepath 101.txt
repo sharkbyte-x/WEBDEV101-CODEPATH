@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Japantown Ramen Festival</title>
+        <link rel="icon" type="image" href="https://i.postimg.cc/9Xx1Ktz7/ramen-2276872.png">
+    </head>
+    
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Tickets">Tickets</a></li>
+                <li><a href="#Schedule">Schedule</a></li>
+                <li><button id = "theme-button" >Dark Mode</button></li>
+            </ul>
+        </div>
+
+        <div id = "Home" class="header-container">
+            <h2 class = "header-item">Hello</h2>
+            <img id="header-img" src="https://i.postimg.cc/9Xx1Ktz7/ramen-2276872.png"/>
+            <h2 class = "header-item">Ramen!</h2>
+        </div>
+
+        <div class="header-container-2">
+            <h1 id="header-title">🍜Japantown Ramen Festival🍜</h1>
+        
+
+            <iframe id = "header-video" width="560" height="315" src="https://www.youtube.com/embed/TBvCB1foJEI?si=a0tgbAxlCRWMcIkm" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+            </iframe>
+            <div id="Tickets">
+                <h2>The festival with the most flavor \(^o^)/</h2>
+                <button id ="header-button" type="button">Buy Tickets</button>
+                <button id ="header-button" type="button">Vendor Application</button>
+            </div>
+        </div>
+    <div id="About">  
+        <h2>About</h2>
+        <p>
+            Experience the heart and soul of Japanese cuisine at the annual Japantown Ramen Festival 2025! 
+            Join us for a fantastic celebration of everything Ramen featuring an incredible array of local ramen shops, ramen merch, and art & performances for the whole family! 
+            Discover rich broths, tasty noodles, and a tempting variety of toppings - all in the heart of Japantown, San Jose from 11 AM - 7:30 PM. 
+            Come hungry and ready to devour your next favorite bowl of ramen!
+        </p>
+
+        <h3>Keep Calm, Eat Ramen.</h3>
+        <h3>What you can expect at the Ramen Festival🍜:</h3>
+        <ul>
+            <li> <b>FUN!</b> <i>Enjoy all our games and prizes for all ages!</i></li>
+            <li> <b>FOOD!</b> <i>Eat a variety of specialty ramens from across California!</i></li>
+            <li> <b>FAMILY!:</b> <i>Bring the family for memorable moments and a chance to take a picture with Ned the Noodle!</i></li>
+        </ul>
+    </div>  
+    
+    <h2>🍜Festival Schedule</h2>
+
+    <div id="Schedule" class="schedule-section-container">
+
+        <div class="schedule-container">
+        <img alt="San Jose Taiko Performance" src="https://i.postimg.cc/Gpn1LMTh/san-jose-taiko.jpg">
+                <figcaption><i>San Jose Taiko Performance</i></figcaption>
+        <h3>🍜Taiko Performance</h3>
+        <p>Experience the thunderous roar of massive odaiko drums and mesmerizing choreography and join us for an unforgettable performance by San Jose Taiko 
+            as they unleash a breathtaking display of skill, strength, and artistry that will have your heart pounding in excitement!
+        </p>
+        <p><b>Event Details:</b></p>
+        <ul>
+            <li> <b>DATE:</b> XX/XX/XXXX</li>
+            <li> <b>TIME:</b> X:XX PM</li>
+            <li> <b>LOCATION:</b> 7th & Taylor St</li>
+        </ul>
+        </div>
+        
+        <div class="schedule-container">
+        <img alt="Ramen Eating Contest" src="https://i.postimg.cc/KvKXnXn8/ramen-contest.jpg"  height=100/>
+            <figcaption><i>Ramen Eating Contest</i></figcaption>
+        <h3>🍜Ramen Eating Contest</h3>
+        <p>Join us as we search for the ultimate ramen eating champion at our 5th Annual Ramen Eating Contest. Watch and cheer on for your favorite competitor 
+            as they conquer bowl after bowl of delicious noodles and claim the glory of $10,000 and a free trip to Japan!.
+        </p>
+
+         <p><b>Event Details:</b></p>
+        <ul>
+            <li> <b>DATE:</b> XX/XX/XXXX</li>
+            <li> <b>TIME:</b> X:XX PM</li>
+            <li> <b>LOCATION:</b> 7th & Taylor St</li>
+        </ul>
+        </div>
+
+        <div class="schedule-container">
+        <img alt="Best Ramen Award Ceremony" src="https://i.postimg.cc/g2RfTvt9/Ramen-Trophy.png" height=100/>
+        <figcaption><i>Best Ramen Award</i></figcaption>
+        <h3>🍜Award Ceremony</h3>
+        
+        <p>Witness who will become the best 
+            Ramen Chef of all California as our Top 10 Finalist face 
+            off to claim Best Ramen of the Year! The winner of the award will win
+            bragging rights and an exclusive deal with Maruchan.
+        </p>
+        
+         <p><b>Event Details:</b></p>
+        <ul>
+            <li> <b>DATE:</b> XX/XX/XXXX</li>
+            <li> <b>TIME:</b> X:XX PM</li>
+            <li> <b>LOCATION:</b> 7th & Taylor St</li>
+        </ul>
+        </div>
+
+    </div>
+    
+<!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2>
+    
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            Ready to eat some ramen?
+
+            Prepare yourself for the ultimate noodle experience at the Japantown Ramen Festival!
+            Imagine exploring a diverse landscape of ramen styles, from the creamy depths of tonkotsu to the savory kick of miso, each bowl crafted by master chefs eager to share their passion. 
+            Discover new favorites, revisit beloved classics, and immerse yourself in the lively spirit of Japantown.
+            Spaces are filling up fast for this highly anticipated event! Don't let FOMO set in – 
+            secure your spot now to guarantee your entry.
+        </div>
+        <div class="rsvp-participants">
+            <p>🍜 Benji from California has RSVP'd.</p>
+            <p>🍜 Aaron from Texas has RSVP'd.</p>
+            <p>🍜 Jessica from New York has RSVP'd.</p>
+        <p id="rsvp-count">⭐ 3 people have RSVP'd to this event!</p>    
+        </div>
+    </div>
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+        <form id="rsvp-form" title="rsvp-form">
+            <label>Name:</label>
+            <input type="text" id="name">
+            <label>Home State:</label>
+            <input type="text" id="home-state">
+            <label>Email:</label>
+            <input type="text" id="email">
+        </form>
+        <!-- Submit button -->
+        <button id="rsvp-button">Submit RSVP</button>
+    </div>      
+</div>
+        <!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div id="modal-item">
+            <button id="exit-modal">X</button>
+            <p id = "modal-text"> 💮Next Stop Japantown!💮</p>
+            
+        </div>
+        <div id="modal-item">
+            <img src="https://i.postimg.cc/RCJ5t51V/pngtree-cute-little-ramen-png-image-13279656.png">
+        </div>
+    </div>
+</div>
+
+    <div id="Links">
+        <h2>🔗Links</h2>
+        <div class ="Links">
+            <a class="block" href="https://taiko.org/">
+            <article>
+                <h3>San Jose Taiko</h3>
+                <p>San Jose Taiko creates innovative performances and comprehensive educational programs, 
+                    empowering diverse voices and educating across cultures to build a more accepting and ENGAGed world.
+                </p>
+            </article>
+            </a>
+        </div>
+    
+        <div class ="Links">
+            <a href="https://jtown.org/">
+            <article>
+                <h3>JTown San Jose</h3>
+                <p>Japantown San Jose is one of the last three authentic Japantowns in the United States. 
+                    Located just a few blocks north of San Jose's City Hall.
+                </p>
+            </article>
+            </a>
+        </div>
+    </div>
+
+        <footer class ="footer">
+            <h5>Copyright</h5>
+            <a class="footer" href = "https://sdramenfest.com/">Learn More</a>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
